@@ -29,3 +29,24 @@ console.log(Object.keys(tinderUser));
 console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser));
 console.log(tinderUser.hasOwnProperty("name"));
+
+const course = {
+    coursename : "JS",
+    price : "999",
+    courseInstructor : "Hitesh"
+}
+ const {courseInstructor : instructor} = course //de-structuring the objects
+ console.log(instructor);
+ 
+ //JSON
+ {
+    "name" : "siri",
+    "age" : "19"
+    "DOB" : "10th-April-2006"
+ } // object type JSON
+ 
+ [
+    {},
+    {},
+    {}
+ ]//array type JSON
